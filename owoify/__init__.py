@@ -21,14 +21,13 @@ DEALINGS IN THE SOFTWARE.
 
 
 
-import discord
 
 import random
 
 
 from .useful import owoifyer, randemoji
 
-__version__ = '0.0.7.9-a'
+__version__ = 'v0.2.0a'
 
 
 
@@ -39,18 +38,6 @@ def owoify(text):
     """
     owoified = owoifyer(f"{text}")
     return owoified
-
-
-
-
-async def discord_owo(channel, text):
-    """
-    Sends owoified message to a certain channel
-    Please use "owoify" for other uses
-    You need to await this function.
-    """
-    owoified = owoifyer(f"{text}")
-    return await channel.send(f"{owoified}")
 
 
 def decode(text):

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+async_owoify.egg-info/PKG-INFO
+async_owoify.egg-info/SOURCES.txt
+async_owoify.egg-info/dependency_links.txt
+async_owoify.egg-info/top_level.txt
+owoify/__init__.py
+owoify/errors.py
+owoify/useful.py
