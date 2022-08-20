@@ -11,6 +11,12 @@ def owoifyer(text):
         owoified = f"{message}"
     return owoified
 
+def unowoifyer(text):
+    message = text.replace("w", "r").replace(
+        "w", "l").replace("W", "L").replace("W", "R")
+    unowoified = f"{message}"
+    return unowoified
+
 def randemoji(number):
     try:
         emojis = {

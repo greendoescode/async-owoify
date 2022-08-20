@@ -1,6 +1,6 @@
 import owoify
 
-print("1: Owofiy\n2: Decode")
+print("------------------------------\n1: Owofiy\n2: Decode\n------------------------------")
 x = input("Pick a option:")
 print("------------------------------")
 

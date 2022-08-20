@@ -25,9 +25,9 @@ DEALINGS IN THE SOFTWARE.
 import random
 
 
-from .useful import owoifyer, randemoji
+from .useful import owoifyer, randemoji, unowoifyer
 
-__version__ = 'v0.2.0a'
+__version__ = 'v0.4.0a'
 
 
 
@@ -41,7 +41,7 @@ def owoify(text):
 
 
 def decode(text):
-    decoded = text.replace("hewwo", "hello").replace("Hewwo", "Hello").replace("Wuve", "Love").replace("wuve", "love").replace("Awe", "Are").replace("awe", "are").replace("wmao", "lmao").replace("Wmao", "Lmao")
+    decoded = unowoifyer(text)
     return decoded
 
 def owo(number):
